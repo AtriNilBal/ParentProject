@@ -1,0 +1,1 @@
+# Parent Library - common fat library project that can be inherited by specific Automation projects for UI, REST
