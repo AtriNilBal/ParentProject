@@ -35,6 +35,7 @@
         <appium.javaclient.version>9.1.0</appium.javaclient.version>
         <fixturefactory.version>3.1.0</fixturefactory.version>
         <lombok.version>1.18.34</lombok.version>
+        <hamcrest.version>3.0</hamcrest.version>
         <assertj.core.version>3.26.0</assertj.core.version>
     </properties>
 
@@ -50,6 +51,11 @@
                 <groupId>org.assertj</groupId>
                 <artifactId>assertj-core</artifactId>
                 <version>${assertj.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.hamcrest</groupId>
+                <artifactId>hamcrest</artifactId>
+                <version>${hamcrest.version}</version>
             </dependency>
             <!-- for selenium -->
             <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
